@@ -1,10 +1,16 @@
 <html>
   <head>
     <title>Salada de frutas</title>
+
+    <%= stylesheet_tag 'custom' %>
   </head>
 
   <body>
     <h1>Frutas</h1>
+
+    <hr>
+      <a href="./about.html">Sobre</a>
+    <hr>
 
     <ul>
       <% @fruits.each do |fruit| %>
