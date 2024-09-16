@@ -4,10 +4,12 @@
     <title>
       Olá
     </title>
+
+    <link href="style.css" rel="stylesheet" />
   </header>
 
   <body>
-    <h1>Oi, sou o título</h1>
+    <h1 id="titulo">Oi, sou o título</h1>
 
     <hr>
 
@@ -18,6 +20,14 @@
 
     <hr>
 
+    <div id="caixa-externa" class="caixa">
+      <div id="caixa-intermediaria" class="caixa">
+        Conteudo da intermediária
+        <div id="caixa-interna" class="caixa"></div>
+      </div>
+    </div>
+    <br>
+
     <pre>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
       Obcaecati facilis saepe sit dolores, earum, voluptates repellat
@@ -26,7 +36,8 @@
     </pre>
 
     <p>
-      Esse é <b>outro</b> parágrafo
+      Esse é <b id="outro_elemento">outro</b> <b class="paragrafo">parágrafo</b>
+      Esse é <b>outro</b> <b class="paragrafo">parágrafo</b>
     </p>
 
     <span>texto simples</span>
@@ -46,6 +57,7 @@
     </ul>
 
     <button disabled> Um botão </button>
+    <button> Um botão </button>
 
     <form action="#" method="post">
       <input type="text" placeholder="Digite aqui">
@@ -56,4 +68,6 @@
     </form>
 
   </body>
+
+  <script type="text/javascript" src="javascript.js"></script>
 </html>

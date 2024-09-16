@@ -1,0 +1,49 @@
+#outro_elemento {
+  color: rgb(10, 47, 255);
+  font-size: 30px;
+  transition: 1s;
+}
+
+#outro_elemento:hover {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
+
+.paragrafo {
+  color: rgba(255, 10, 10);
+  font-size: 30px;
+}
+
+button, li {
+  color: rgb(6, 80, 55);
+}
+
+button[disabled] {
+  color: rgb(151, 16, 79);
+}
+
+p {
+  text-align: center;
+}
+
+.caixa {
+  width: 100px;
+  height: 100px;
+}
+
+#caixa-externa{
+  background-color: rgb(255, 0, 0);
+  margin: 100px;
+}
+
+#caixa-intermediaria{
+  padding: 10px 50px 20px 0;
+  background-color: rgb(255, 238, 0);
+  border: 20px solid black;
+}
+
+#caixa-interna{
+  background-color: rgb(0, 255, 34);
+  width: 50px;
+  height: 50px;
+}
