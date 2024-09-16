@@ -20,5 +20,10 @@ def stylesheet_tag(file_name)
   "<link href='./#{file_name}.css' rel='stylesheet' />"
 end
 
+def javascript_tag(file_name)
+  templateJs = File.read("javascript/#{file_name}.js.erb").gsub(/^ /, '')
+  "<script> \n #{ ERB.new(templateJs).result } \n</script>"
+end
+
 render('index')
 render('about')
